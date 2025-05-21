@@ -57,7 +57,6 @@ class TagInput extends Component<TagInputProps, TagInputState> {
       inputValue: "",
       isFocused: false,
     };
-    // this.inputRef = createRef<HTMLInputElement>();
   }
 
   getMaxTag = () => {
