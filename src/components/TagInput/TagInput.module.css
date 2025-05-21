@@ -1,0 +1,68 @@
+.tagInputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  gap: 8px;
+  cursor: text;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.tagInputContainer.focused {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.tagItem {
+  display: flex;
+  align-items: center;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.875em;
+  line-height: 1.5;
+  transition: background-color 0.2s ease;
+}
+
+.tagItem:hover {
+  background-color: #dee2e6;
+}
+
+.tagItem span {
+  margin-right: 4px;
+}
+
+.removeTagButton {
+  background: none;
+  border: none;
+  color: #6c757d;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease;
+  line-height: 1;
+}
+
+.tagInputField {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 4px 0;
+  font-size: 1em;
+  min-width: 120px;
+  background-color: transparent;
+}
+
+.tagInputField::placeholder {
+  color: #6c757d;
+}
+
+.tagInputField:disabled {
+  cursor: not-allowed;
+  background-color: transparent;
+}
