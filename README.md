@@ -18,6 +18,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+```
 TagInput Component Props
 [tags] ==> set initial tag
 [onChange] ==> emit data when user add/remove tag
@@ -28,3 +29,4 @@ TagInput Component Props
 [onFocus][optional] ==> use when field is touched
 [onBlur][optional] ==> use when field is untouched
 [seperator][optional] ==> it's a customize delimiter eg. Enter, Comma etc.
+```
